@@ -1,0 +1,58 @@
+.elementor-kit-6 {
+    --e-global-color-primary: #FD0202;
+    --e-global-color-secondary: #FD0202;
+    --e-global-color-text: #626262;
+    --e-global-color-accent: #000000;
+    --e-global-color-227734b: #999999;
+    --e-global-color-33571bd: #626262;
+}
+
+.elementor-kit-6 button,
+.elementor-kit-6 input[type="button"],
+.elementor-kit-6 input[type="submit"],
+.elementor-kit-6 .elementor-button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1em;
+    color: #FFFFFF;
+    background-color: var( --e-global-color-primary);
+    border-radius: 0px 0px 0px 0px;
+    padding: 20px 40px 20px 40px;
+}
+
+.elementor-kit-6 button:hover,
+.elementor-kit-6 button:focus,
+.elementor-kit-6 input[type="button"]:hover,
+.elementor-kit-6 input[type="button"]:focus,
+.elementor-kit-6 input[type="submit"]:hover,
+.elementor-kit-6 input[type="submit"]:focus,
+.elementor-kit-6 .elementor-button:hover,
+.elementor-kit-6 .elementor-button:focus {
+    background-color: #E50101;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1290px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 0px;
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+}
